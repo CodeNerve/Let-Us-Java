@@ -3,11 +3,12 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 
 
 # Contents
-- Snake Game Applet
-
+1. Snake Game Applet
+2. Add Fibonacci numbers
 
 
 
 
 # Contributors
+- [DudeHere1](https://github.com/DudeHere1)
 - [Pradyuman7](https://github.com/Pradyuman7)
