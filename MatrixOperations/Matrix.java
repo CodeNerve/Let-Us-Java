@@ -37,7 +37,42 @@ public class Matrix {
 
         for(int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                A[i][j] = new Random().nextInt(max + 1) - min;
+                A[i][j] = new Random().nextInt(max - min + 1) + min;
+            }
+        }
+
+        return A;
+    }
+
+    public static double[][] identityMatrix(int dim) {
+
+        double[][] A = zeroMatrix(dim, dim);
+
+        for (int i = 0; i < dim; i++)
+           A[i][i] = 1.0;
+
+        return A;
+    }
+
+    public static double[][] transposeMatrix(double[][] A) {
+
+        double[][] B = new double[A[0].length][A.length];
+
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < A[0].length; j++) {
+                B[j][i] = A[i][j];
+            }
+        }
+
+        return B;
+
+    }
+
+    public static double[][] elementMatrixMultiplication(double[][] A, double b) {
+
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < A[0].length; j++) {
+                A[i][j] = b*A[i][j];
             }
         }
 
@@ -52,8 +87,7 @@ public class Matrix {
             return(A);
         }
 
-        double[][] C;
-        C = new double[A.length][A[0].length];
+        double[][] C = new double[A.length][A[0].length];
 
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[i].length; j++) {
@@ -68,7 +102,7 @@ public class Matrix {
     public static double[][] matrixMultiplication(double[][] A, double[][] B) {
 
         if (A[0].length != B.length) {
-            System.out.println("Matrix A number of rows is not equal to Matrix B number of columns.\nReturning matrix A");
+            System.out.println("Matrix A number of rows must be equal to Matrix B number of columns.\nReturning matrix A");
             return(A);
         }
 
@@ -87,19 +121,30 @@ public class Matrix {
         return C;
     }
 
+
     public static void main(String[] args) {
 
+        double[][] I = identityMatrix(4);
+        System.out.println("\nIdentity Matrix 4x4: "+Arrays.deepToString(I));
+
         double[][] A = randomMatrix(4, 4, -5, 5);
-        System.out.println("\nMatrix A: "+Arrays.deepToString(A));
+        System.out.println("\nRandom Matrix A: "+Arrays.deepToString(A));
+
+        A = elementMatrixMultiplication(A, 2);
+        System.out.println("\nMatrix A multiplied by 2: "+Arrays.deepToString(A));
+
+        double[][] A_T = transposeMatrix(A);
+        System.out.println("\nMatrix A Transpose: "+Arrays.deepToString(A_T));
 
         double[][] B = randomMatrix(4, 4, -5, 5);
-        System.out.println("\nMatrix B: "+Arrays.deepToString(B));
+        System.out.println("\nRandom Matrix B: "+Arrays.deepToString(B));
 
         double[][] C = matrixAddition(A, B);
         System.out.println("\nA + B: "+Arrays.deepToString(C));
 
         double[][] D = matrixMultiplication(A, B);
         System.out.println("\nA * B: "+Arrays.deepToString(D));
+
 
     }
 
