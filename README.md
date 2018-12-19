@@ -5,6 +5,7 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 # Contents
 1. Snake Game Applet
 2. Add Fibonacci numbers
+3. Matrix Operations
 
 
 
