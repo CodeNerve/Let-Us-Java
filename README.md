@@ -7,6 +7,7 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 2. Add Fibonacci numbers
 3. Matrix Operations
 4. Tree
+5. Permutation of a string
 
 
 
@@ -15,3 +16,4 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 - [DudeHere1](https://github.com/DudeHere1)
 - [Pradyuman7](https://github.com/Pradyuman7)
 - [manos1996](https://github.com/manos1996)
+- [Masum](https://github.com/Jnerdva)
