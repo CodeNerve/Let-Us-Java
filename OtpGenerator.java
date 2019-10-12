@@ -1,13 +1,7 @@
-import OTP.Permutations;
-import Redis.RedisHandler;
 import org.apache.commons.lang.RandomStringUtils;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 
-public class OtpGenerator {
+public class Test {
 
     public static void main(String[] args) {
 
