@@ -9,6 +9,7 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 4. Tree
 5. Permutation of a string
 6. Palindrome number checking
+7. OTP Generator
 
 
 
@@ -20,3 +21,4 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 - [Masum](https://github.com/Jnerdva)
 - [Pulsejit](https://github.com/pulsejit)
 - [mSalman321](https://github.com/mSalman321)
+- [dennism501](https://github.com/dennism501)
