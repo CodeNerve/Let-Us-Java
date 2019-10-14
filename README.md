@@ -10,6 +10,7 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 5. Permutation of a string
 6. Palindrome number checking
 7. OTP Generator
+8. Simple-DES encryption algorithm
 
 
 
@@ -22,3 +23,4 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 - [Pulsejit](https://github.com/pulsejit)
 - [mSalman321](https://github.com/mSalman321)
 - [dennism501](https://github.com/dennism501)
+- [Avhijit-codeboy](https://github.com/Avhijit-codeboy)
