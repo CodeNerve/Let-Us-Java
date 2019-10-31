@@ -17,6 +17,7 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 12. Find Prime
 13. Pass Generator
 14. NoMatcher.java
+15. Sorting Algorithms (BubbleSort)
 
 
 
@@ -31,3 +32,4 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 - [dennism501](https://github.com/dennism501)
 - [Avhijit-codeboy](https://github.com/Avhijit-codeboy)
 - [Utsav1999](https://github.com/Utsav1999)
+- [RasmusKnothNielsen](https://github.com/RasmusKnothNielsen)
