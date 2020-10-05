@@ -1,3 +1,5 @@
+package TowersOfHanoi;
+
 public class TowersOfHanoi {
 
    public void solve(int n, String start, String auxiliary, String end) {
