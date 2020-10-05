@@ -1,4 +1,4 @@
-
+package Tree;
 // Java program to demonstrate insertions in TreeSet 
 import java.util.*; 
   
