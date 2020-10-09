@@ -7,6 +7,7 @@
   <groupId>com.let.us.java</groupId>
   <artifactId>LetUsJava</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>LetUsJava</name>
   <!-- FIXME change it to the project's website -->
@@ -17,6 +18,10 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+
+  <modules>
+    <module>AddFibonacciNumbers</module>
+  </modules>
 
   <dependencies>
     <dependency>
