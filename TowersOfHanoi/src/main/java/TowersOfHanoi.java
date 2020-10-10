@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TowersOfHanoi {
 
    public void solve(int n, String start, String auxiliary, String end) {
