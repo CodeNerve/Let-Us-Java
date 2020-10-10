@@ -1,5 +1,5 @@
 
-public class PermutationofString {
+public class PermutationOfString {
 
 	public static void main(String[] args) {
 		// Given an input string to return all possible permuations in a string Array
@@ -24,7 +24,7 @@ public class PermutationofString {
 							+ current.substring(j);
 	                k++;
 				}
-	        
+
 			}
 			return ans;
 	}
@@ -32,7 +32,7 @@ public class PermutationofString {
 		for(String s: result) {
 			System.out.println(s);
 		}
-		
+
 	}
 
 
