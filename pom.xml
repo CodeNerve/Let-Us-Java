@@ -39,6 +39,7 @@
     <module>Tree</module>
     <module>Admission</module>
     <module>Fancy</module>
+    <module>KickStart2019</module>
   </modules>
 
   <dependencies>
