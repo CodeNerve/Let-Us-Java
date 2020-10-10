@@ -55,6 +55,25 @@
     </site>
   </distributionManagement>
 
+  <profiles>
+    <profile>
+      <id>install</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <build>
+        <defaultGoal>clean install</defaultGoal>
+      </build>
+    </profile>
+
+    <profile>
+      <id>doc</id>
+      <build>
+        <defaultGoal>clean site:site site:stage</defaultGoal>
+      </build>
+    </profile>
+  </profiles>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -115,7 +134,7 @@
       </plugins>
     </pluginManagement>
   </build>
-  
+
   <reporting>
     <plugins>
       <plugin>
