@@ -26,6 +26,7 @@
     <module>DynamicProgramming</module>
     <module>FindMinimumInRotatedSortedArray</module>
     <module>FindPrime</module>
+    <module>MatrixOperations</module>
   </modules>
 
   <dependencies>
