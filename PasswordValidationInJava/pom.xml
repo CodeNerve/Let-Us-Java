@@ -14,6 +14,6 @@
   <artifactId>PasswordValidationInJava</artifactId>
   <packaging>jar</packaging>
 
-  <name>Password Generator In Java</name>
+  <name>Password Validation In Java</name>
 
 </project>
