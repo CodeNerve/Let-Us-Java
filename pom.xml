@@ -27,6 +27,7 @@
     <module>FindMinimumInRotatedSortedArray</module>
     <module>FindPrime</module>
     <module>MatrixOperations</module>
+    <module>OTPGenerator</module>
   </modules>
 
   <dependencies>
@@ -35,6 +36,12 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
     </dependency>
   </dependencies>
 
