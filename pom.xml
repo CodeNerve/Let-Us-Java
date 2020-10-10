@@ -41,6 +41,7 @@
     <module>Fancy</module>
     <module>KickStart2019</module>
     <module>NoMatcher</module>
+    <module>Zomcav</module>
   </modules>
 
   <distributionManagement>
