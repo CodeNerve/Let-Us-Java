@@ -24,6 +24,7 @@
     <module>ArmstrongNumber</module>
     <module>CalculatePi</module>
     <module>DynamicProgramming</module>
+    <module>FindMinimumInRotatedSortedArray</module>
   </modules>
 
   <dependencies>
