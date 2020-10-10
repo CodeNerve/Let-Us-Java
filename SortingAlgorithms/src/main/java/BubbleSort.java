@@ -38,3 +38,4 @@ class BubbleSort
         System.out.println("Array after being sorted:");
         sort.printArray(arr);
     }
+}

@@ -34,6 +34,7 @@
     <module>PermutationOfString</module>
     <module>SimpleDESEncryptionAlgorithm</module>
     <module>SnakeGameApplet</module>
+    <module>SortingAlgorithms</module>
   </modules>
 
   <dependencies>
