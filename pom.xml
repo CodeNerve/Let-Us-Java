@@ -21,6 +21,7 @@
 
   <modules>
     <module>AddFibonacciNumbers</module>
+    <module>ArmstrongNumber</module>
   </modules>
 
   <dependencies>
