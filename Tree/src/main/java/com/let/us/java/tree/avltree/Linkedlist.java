@@ -1,7 +1,9 @@
+package com.let.us.java.tree.avltree;
+
 import java.util.Scanner;
 
 class Node{
-	public static Node head=null; 
+	public static Node head=null;
 	int value;
 	Node next;
 	public void InsertAtFront(int val) {
@@ -17,7 +19,7 @@ class Node{
 			head=temp;
 		}
 	}//end of insert at front function
-	
+
 	public void InsertAtEnd(int val) {
 		Node temp=new Node();
 		Node location=head;//location node will be last node(after the iteration) of the list if list is having at least one node
@@ -35,7 +37,7 @@ class Node{
 		temp.next=null;
 		}
 	}//end of insert at end
-	
+
 	public void DeleteFromFront() {
 		if(head==null) {
 			System.out.println("list is empty nothing to delete");
@@ -45,7 +47,7 @@ class Node{
 			head=head.next;
 		}
 	}//end of delete from front
-	
+
 	public void DeleteFromEnd() {
 		Node location=head;
 		if(head==null) {
@@ -56,14 +58,14 @@ class Node{
 		}
 		else {
 			while(location.next.next!=null) {
-				
+
 				location=location.next;
 			}
 			System.out.println("last node of value "+location.next.value+" is deleted");
 			location.next=null;
 			}
 	}//end of delete from end function
-	
+
 	public void DeleteAnodeByValue(int val) {
 			Node temp=head;
 			if(head==null) {

@@ -1,3 +1,4 @@
+package com.let.us.java.tree.binarytree;
 
 import java.util.Scanner;
 
@@ -15,26 +16,26 @@ class Node{
 }
 
 class Bt{
-	public static Node root=null; 
-	
+	public static Node root=null;
+
 	public void insert(int val) {
 		root=insert(root,val);
 	}
 	int max(int a,int b) {
-		return a>b?a:b; 
+		return a>b?a:b;
 	}
-	
+
 	public int Height(Node Root) {
 		if(Root==null||(Root.right==null&&Root.left==null))
 				return 0;
-		else 
+		else
 			return 1+max(Height(Root.left),Height(Root.right));
 	}
-	
+
 	void Height() {
 		System.out.println("height of the tree is "+Height(root));
 	}
-	
+
 	void LevelElements(Node ROOT,int level) {
 		if(level==0) {
 			if(ROOT==null)
@@ -49,14 +50,14 @@ class Bt{
 			{LevelElements(ROOT.right,level-1);}
 		}
 	}
-	
+
 	void LevelOrder() {
 		for(int i=0;i<=Height(root);i++) {
 			LevelElements(root,i);
 			System.out.println("");
 		}
 	}
-	
+
 	public  Node insert(Node Root,int val) {
 		Node newnode=new Node(val);
 		if(Root==null) {
@@ -83,7 +84,7 @@ class Bt{
  			InOrder(Root.right);
  	}
 	}//end of InOrder function
-	
+
 	public void PreOrder() {
 		PreOrder(root);
 	}
@@ -96,7 +97,7 @@ class Bt{
  			PreOrder(Root.right);
  	}
 	}//end of PreOrder function
-	
+
 	public void PostOrder() {
 		PostOrder(root);
 	}
@@ -113,7 +114,7 @@ class Bt{
 	public void delete(int val) {
 		root=delete(root,val);
 	}
-	
+
 	int TotalNodes(Node ROOT) {
 		if(ROOT==null) {
 			return 0;
@@ -122,7 +123,7 @@ class Bt{
 			return 1+TotalNodes(ROOT.left)+TotalNodes(ROOT.right);
 		}
 	}
-	
+
 	public Node delete(Node Root,int val) {
 		int i=0;
 		Scanner sc=new Scanner(System.in);
@@ -136,12 +137,12 @@ class Bt{
 		else if(val<Root.value) {
 			Root.left=delete(Root.left,val);
 		}
-		else {	//Root is the node to be deleted										
+		else {	//Root is the node to be deleted
 			if(Root.left==null&&Root.right==null) {
 				Root=null;
 			}
 			else if(Root.right==null) {//only left child is present
-				Root=Root.left;	
+				Root=Root.left;
 			}
 			else if(Root.left==null) {//only right child is present
 				Root=Root.right;
@@ -161,7 +162,7 @@ class Bt{
 		}
 		return Root;
 	}//end of delete function
-	
+
 	public static Node maxleft(Node ROOT) {
 		Node temp=ROOT.left;
 		while(temp.right!=null) {
@@ -169,7 +170,7 @@ class Bt{
 		}//end of while
 		return temp;//reference of maxleft
 	}//end of maxleft
-	
+
 	public static Node minright(Node ROOT) {
 		Node temp=ROOT.right;
 		while(temp.left!=null) {
@@ -177,7 +178,7 @@ class Bt{
 		}//end of while
 		return temp;//reference of minright
 	}//end of minright
-	
+
 }//end of Bt
 public class BinarySearchTree {
 
@@ -231,5 +232,3 @@ public class BinarySearchTree {
 	}//end of main
 
 }//end of class
-
-
