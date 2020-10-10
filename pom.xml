@@ -32,6 +32,7 @@
     <module>PassGenerator</module>
     <module>PasswordValidationInJava</module>
     <module>PermutationOfString</module>
+    <module>SimpleDESEncryptionAlgorithm</module>
   </modules>
 
   <dependencies>
