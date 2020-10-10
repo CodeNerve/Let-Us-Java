@@ -43,6 +43,18 @@
     <module>NoMatcher</module>
   </modules>
 
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>LetUsJava</name>
+      <url>https://github.com/ifenil/Let-Us-Java</url>
+    </repository>
+    <site>
+      <id>ifenil-github</id>
+      <url>scp://github.com/ifenil/Let-Us-Java</url>
+    </site>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -103,4 +115,41 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <!-- Default configuration for all reports -->
+          ...
+        </configuration>
+        <reportSets>
+          <reportSet>
+            <id>default</id>
+            <configuration>
+              <!-- Specific configuration for the given reports -->
+              ...
+            </configuration>
+            <reports>
+              <report>javadoc</report>
+              <report>test-javadoc</report>
+            </reports>
+          </reportSet>
+          <reportSet>
+            <id>aggregate</id>
+            <configuration>
+              <!-- Specific configuration for the given reports -->
+              ...
+            </configuration>
+            <reports>
+              <report>aggregate</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
