@@ -29,3 +29,5 @@ jobs:
       with:
         # Filename for archive
         filename: site.zip
+        # Base path for archive files
+        path: target/staging
