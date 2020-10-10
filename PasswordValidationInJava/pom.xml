@@ -11,7 +11,7 @@
   </parent>
 
   <groupId>com.let.us.java</groupId>
-  <artifactId>PasswordGeneratorInJava</artifactId>
+  <artifactId>PasswordValidationInJava</artifactId>
   <packaging>jar</packaging>
 
   <name>Password Generator In Java</name>

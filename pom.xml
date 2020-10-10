@@ -30,7 +30,7 @@
     <module>OTPGenerator</module>
     <module>PalindromeChecking</module>
     <module>PassGenerator</module>
-    <module>PasswordGeneratorInJava</module>
+    <module>PasswordValidationInJava</module>
   </modules>
 
   <dependencies>
