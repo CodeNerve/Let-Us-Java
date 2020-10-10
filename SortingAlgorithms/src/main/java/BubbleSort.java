@@ -1,7 +1,7 @@
 /* Bubblesort algorithm in Java
 @Author: Rasmus Knoth Nielsen
  */
-class BubbleSort
+public class BubbleSort
 {
     // Method that implements the bubblesort algorithm
     void bubbleSort(int arr[])
