@@ -19,7 +19,7 @@ class IndiaAssertComparer {
     }
 }
 
-class NoMatcher {
+public class NoMatcher {
     public static void main(String[] a) throws NoMatchException {
         IndiaAssertComparer v = new IndiaAssertComparer("America");
     }
