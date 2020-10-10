@@ -38,6 +38,7 @@
     <module>TowersOfHanoi</module>
     <module>Tree</module>
     <module>Admission</module>
+    <module>Fancy</module>
   </modules>
 
   <dependencies>
