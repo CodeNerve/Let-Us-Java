@@ -49,7 +49,7 @@ class Techno{
 	}
 }
 
-class admission{
+public class admission{
 	public static void main(String arg[])
 	{
 			Scanner sc=new Scanner(System.in);
