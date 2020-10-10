@@ -25,6 +25,7 @@
     <module>CalculatePi</module>
     <module>DynamicProgramming</module>
     <module>FindMinimumInRotatedSortedArray</module>
+    <module>FindPrime</module>
   </modules>
 
   <dependencies>
