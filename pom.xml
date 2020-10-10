@@ -22,6 +22,7 @@
   <modules>
     <module>AddFibonacciNumbers</module>
     <module>ArmstrongNumber</module>
+    <module>CalculatePi</module>
   </modules>
 
   <dependencies>
