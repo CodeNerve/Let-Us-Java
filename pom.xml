@@ -23,6 +23,7 @@
     <module>AddFibonacciNumbers</module>
     <module>ArmstrongNumber</module>
     <module>CalculatePi</module>
+    <module>DynamicProgramming</module>
   </modules>
 
   <dependencies>
