@@ -28,6 +28,7 @@
     <module>FindPrime</module>
     <module>MatrixOperations</module>
     <module>OTPGenerator</module>
+    <module>PalindromeChecking</module>
   </modules>
 
   <dependencies>

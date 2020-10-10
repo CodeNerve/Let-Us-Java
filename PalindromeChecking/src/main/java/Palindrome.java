@@ -1,5 +1,5 @@
 import java.io.*;
-class palindrome{
+class Palindrome{
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the number :");
@@ -10,14 +10,14 @@ class palindrome{
 		while(n>0){
 			int r = n%10;
 			sum = (sum*10)+r;
-			n=n/10;	
+			n=n/10;
 		}
 		if(temp == sum){
 			System.out.println("The input is a palindrome number.");
 		}else{
 			System.out.println("The input is not a palindrome number.");
 		}
-		
+
 
 	}
 }
