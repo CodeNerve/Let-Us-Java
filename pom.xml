@@ -22,6 +22,7 @@
   <modules>
     <module>AddFibonacciNumbers</module>
     <module>ArmstrongNumber</module>
+    <module>ArrSort</module>
     <module>CalculatePi</module>
     <module>DynamicProgramming</module>
     <module>FindMinimumInRotatedSortedArray</module>
