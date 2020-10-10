@@ -36,6 +36,7 @@
     <module>SnakeGameApplet</module>
     <module>SortingAlgorithms</module>
     <module>TowersOfHanoi</module>
+    <module>Tree</module>
   </modules>
 
   <dependencies>
