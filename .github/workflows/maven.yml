@@ -31,3 +31,7 @@ jobs:
         filename: site.zip
         # Base path for archive files
         path: target/staging
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Artifact upload
+        path: site.zip
