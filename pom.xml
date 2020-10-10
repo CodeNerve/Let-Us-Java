@@ -33,6 +33,7 @@
     <module>PasswordValidationInJava</module>
     <module>PermutationOfString</module>
     <module>SimpleDESEncryptionAlgorithm</module>
+    <module>SnakeGameApplet</module>
   </modules>
 
   <dependencies>
