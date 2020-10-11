@@ -11,9 +11,9 @@
   </parent>
 
   <groupId>com.let.us.java</groupId>
-  <artifactId>ArrSort</artifactId>
+  <artifactId>CodechefQuestions</artifactId>
   <packaging>jar</packaging>
 
-  <name>ArrSort</name>
+  <name>Codechef Questions</name>
 
 </project>

@@ -11,9 +11,9 @@
   </parent>
 
   <groupId>com.let.us.java</groupId>
-  <artifactId>Fancy</artifactId>
+  <artifactId>LeetCodeSolutions</artifactId>
   <packaging>jar</packaging>
 
-  <name>Fancy</name>
+  <name>LeetCode Solutions</name>
 
 </project>

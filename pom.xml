@@ -22,11 +22,12 @@
   <modules>
     <module>AddFibonacciNumbers</module>
     <module>ArmstrongNumber</module>
-    <module>ArrSort</module>
     <module>CalculatePi</module>
+    <module>CodechefQuestions</module>
     <module>DynamicProgramming</module>
     <module>FindMinimumInRotatedSortedArray</module>
     <module>FindPrime</module>
+    <module>LeetCodeSolutions</module>
     <module>MatrixOperations</module>
     <module>OTPGenerator</module>
     <module>PalindromeChecking</module>
@@ -39,7 +40,6 @@
     <module>TowersOfHanoi</module>
     <module>Tree</module>
     <module>Admission</module>
-    <module>Fancy</module>
     <module>KickStart2019</module>
     <module>NoMatcher</module>
     <module>Zomcav</module>
