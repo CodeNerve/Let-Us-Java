@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+public class DPEfficient {
     Map<Integer,Integer> map = new HashMap<>();
 
     public int fib(int n) {
