@@ -1,4 +1,4 @@
-package Tree;
+package com.let.us.java.tree.avltree;
 
 import java.util.Scanner;
 
