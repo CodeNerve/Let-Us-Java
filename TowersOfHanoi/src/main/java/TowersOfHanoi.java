@@ -1,3 +1,5 @@
+package TowersOfHanoi;
+
 import java.util.Scanner;
 
 public class TowersOfHanoi {
