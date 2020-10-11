@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class CalculatePi {
-    
+
     Scanner s = new Scanner(System.in);
     double res = 0;
-    
+
     public CalculatePi(){
         System.out.println("Enter the input number");
-        int n = scanner.nextInt();
-        res = calculate(n)
+        int n = s.nextInt();
+        res = calculate(n);
         System.out.println(res);
     }
 
@@ -25,9 +25,9 @@ public class CalculatePi {
     }
 
     public static void main(String[] args){
-        
+
         CalculatePi calculatePi = new CalculatePi();
-        
+
         //System.out.println("Enter the input number");
         //Scanner scanner = new Scanner(System.in);
         //int n = scanner.nextInt();
