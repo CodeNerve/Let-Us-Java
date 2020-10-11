@@ -35,8 +35,8 @@ class ArrayStack {
     }
 }
 
-class Demo {
-public static void main( String args[] ) {
+public class StackExceptionHandling {
+  public static void main( String args[] ) {
 
     ArrayStack s=new ArrayStack();
     try
@@ -46,9 +46,9 @@ public static void main( String args[] ) {
         for(int j=0;j<5;j++)
             s.pop();
     }
-    
+
     catch ( StackException e ) {
         System.out.println("Error detected: " + e.getMessage() );
     }
-}
+  }
 }
