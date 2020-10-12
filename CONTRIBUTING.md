@@ -7,4 +7,4 @@
 
 ## ReadMe contribution
 - Please make sure that the formatting is all good and is not messy
-- No PRs just for a few typos, however feel free to make a PR listing the contributors' name who have contributed to the repository but their username is not on the ReadMe
+- No PRs just for a few typos, however feel free to create a PR to style the ReadMe in a new or better way that looks nicer :)
