@@ -27,7 +27,21 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 22. Towers of Hanoi
 23. Tree
 
+# Compiling projects
+This project is organized according to the convention of Maven project.
+Make sure you have apache maven installed.
+The default maven goal is `mvn clean install` however you may just run mvn to compile at the project level, or at the module level.
 
+```shell
+~/checkouts/Let-Us-Java >>> mvn
+```
+
+# Documentation
+To generate the documentation, you may use doc profile when running maven. It will perform maven goal `mvn site:site site:stage`. Find the generated document in ./target/staging/ directory
+
+```shell
+~/checkouts/Let-Us-Java >>> mvn -P doc
+```
 
 # Contributors
 - [DudeHere1](https://github.com/DudeHere1)
@@ -41,3 +55,4 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 - [Utsav1999](https://github.com/Utsav1999)
 - [RasmusKnothNielsen](https://github.com/RasmusKnothNielsen)
 - [mKittyD](https://github.com/mKittyD)
+- [fazreil](https://github.com/fazreil)
