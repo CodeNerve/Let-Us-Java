@@ -44,15 +44,7 @@ To generate the documentation, you may use doc profile when running maven. It wi
 ```
 
 # Contributors
-- [DudeHere1](https://github.com/DudeHere1)
-- [Pradyuman7](https://github.com/Pradyuman7)
-- [manos1996](https://github.com/manos1996)
-- [Masum](https://github.com/Jnerdva)
-- [Pulsejit](https://github.com/pulsejit)
-- [mSalman321](https://github.com/mSalman321)
-- [dennism501](https://github.com/dennism501)
-- [Avhijit-codeboy](https://github.com/Avhijit-codeboy)
-- [Utsav1999](https://github.com/Utsav1999)
-- [RasmusKnothNielsen](https://github.com/RasmusKnothNielsen)
-- [mKittyD](https://github.com/mKittyD)
-- [fazreil](https://github.com/fazreil)
+[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/0)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/0)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/1)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/1)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/2)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/2)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/3)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/3)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/4)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/4)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/5)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/5)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/6)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/6)[![](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/images/7)](https://sourcerer.io/fame/Pradyuman7/CodeNerve/Let-Us-Java/links/7)
+
+# Latest updates
+The repository has been updated to a Maven project, thanks to @fazreil. Please make sure that the build passes when creating a PR!
