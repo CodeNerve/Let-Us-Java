@@ -3,39 +3,6 @@ Any amazing :fire: code you may think of in Java, let's compile all of them here
 
 
 # Contents
-<<<<<<< HEAD
-1. Snake Game Applet
-2. Add Fibonacci numbers
-3. Matrix Operations
-4. Tree
-5. Permutation of a string
-6. Palindrome number checking
-7. OTP Generator
-8. Simple-DES encryption algorithm
-9. Calculate Pi
-10. Dynammic Programming
-11. FindMinimumRotatedSortedArray
-12. Find Prime
-13. Pass Generator
-14. NoMatcher.java
-15. Sorting Algorithms (BubbleSort)
-
-# Compiling projects
-This project is organized according to the convention of Maven project.
-Make sure you have apache maven installed.
-The default maven goal is `mvn clean install` however you may just run mvn to compile at the project level, or at the module level.
-
-```shell
-~/checkouts/Let-Us-Java >>> mvn
-```
-
-# Documentation
-To generate the documentation, you may use doc profile when running maven. It will perform maven goal `mvn site:site site:stage`. Find the generated document in ./target/staging/ directory
-
-```shell
-~/checkouts/Let-Us-Java >>> mvn -P doc
-```
-=======
 1. Add Fibonacci numbers
 2. Armstrong number
 3. Calculate Pi
@@ -59,9 +26,22 @@ To generate the documentation, you may use doc profile when running maven. It wi
 21. Steganography
 22. Towers of Hanoi
 23. Tree
->>>>>>> codenerve/master
 
+# Compiling projects
+This project is organized according to the convention of Maven project.
+Make sure you have apache maven installed.
+The default maven goal is `mvn clean install` however you may just run mvn to compile at the project level, or at the module level.
 
+```shell
+~/checkouts/Let-Us-Java >>> mvn
+```
+
+# Documentation
+To generate the documentation, you may use doc profile when running maven. It will perform maven goal `mvn site:site site:stage`. Find the generated document in ./target/staging/ directory
+
+```shell
+~/checkouts/Let-Us-Java >>> mvn -P doc
+```
 
 # Contributors
 - [DudeHere1](https://github.com/DudeHere1)
@@ -74,8 +54,5 @@ To generate the documentation, you may use doc profile when running maven. It wi
 - [Avhijit-codeboy](https://github.com/Avhijit-codeboy)
 - [Utsav1999](https://github.com/Utsav1999)
 - [RasmusKnothNielsen](https://github.com/RasmusKnothNielsen)
-<<<<<<< HEAD
-- [fazreil](https://github.com/fazreil)
-=======
 - [mKittyD](https://github.com/mKittyD)
->>>>>>> codenerve/master
+- [fazreil](https://github.com/fazreil)
