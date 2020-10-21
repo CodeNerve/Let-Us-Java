@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class linked-list-cycle-ii{
     public ListNode detectCycle(ListNode head) {
        
         ListNode slowptr=head;
