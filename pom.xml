@@ -45,6 +45,7 @@
     <module>NoMatcher</module>
     <module>Zomcav</module>
     <module>Stacks</module>
+      <module>BinarySearch</module>
   </modules>
 
   <distributionManagement>
