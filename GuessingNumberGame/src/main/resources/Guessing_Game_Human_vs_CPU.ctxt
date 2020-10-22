@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=lower\ upper\ randnum\ count
+comment0.target=int\ computerGuess(int,\ int,\ int,\ int)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
