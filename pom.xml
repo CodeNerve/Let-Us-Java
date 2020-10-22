@@ -20,49 +20,25 @@
   </properties>
 
   <modules>
-    <module>AddFibonacciNumbers</module>
     <module>Admission</module>
-    <module>ArmstrongNumber</module>
-    <module>BinarySearch</module>
-    <module>BinaryTrees</module>
-    <module>BubbleSort</module>
-    <module>CalculatePi</module>
+    <module>Algorithms</module>
     <module>CodechefQuestions</module>
     <module>CodeQuotient2</module>
-    <module>DynamicProgramming</module>
-    <module>EuclieanDistance</module>
-    <module>FindMinimumInRotatedSortedArray</module>
-    <module>FindPrime</module>
-    <module>GuessingNumberGame</module>
-    <module>GuessTheMovieGame</module>
-    <module>HeapSort</module>
+    <module>Games</module>
     <module>Interface</module>
     <module>KickStart2019</module>
-    <module>LCM</module>
     <module>LeetCodeSolutions</module>
     <module>LinkedList</module>
-    <module>LongestPalindromicSubString</module>
     <module>MatrixOperations</module>
-    <module>MiniTennis</module>
     <module>NoMatcher</module>
-    <module>NumberSquare</module>
     <module>OTPGenerator</module>
-    <module>PalindromeChecking</module>
-    <module>Pangram</module>
     <module>PassGenerator</module>
     <module>PasswordValidationInJava</module>
-    <module>PermutationOfString</module>
     <module>RandomInterviewQuestions</module>
     <module>RMI</module>
-    <module>SegmentTrees</module>
-    <module>SelectionSort</module>
-    <module>SimpleDESEncryptionAlgorithm</module>
-    <module>SnakeGameApplet</module>
-    <module>SortingAlgorithms</module>
     <module>Stacks</module>
     <module>Steganography</module>
     <module>TowersOfHanoi</module>
-    <module>Tree</module>
     <module>Zomcav</module>
   </modules>
 
