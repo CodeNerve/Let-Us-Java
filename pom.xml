@@ -20,32 +20,26 @@
   </properties>
 
   <modules>
-    <module>AddFibonacciNumbers</module>
     <module>Admission</module>
-    <module>ArmstrongNumber</module>
-    <module>CalculatePi</module>
+    <module>Algorithms</module>
     <module>CodechefQuestions</module>
-    <module>DynamicProgramming</module>
-    <module>FindMinimumInRotatedSortedArray</module>
-    <module>FindPrime</module>
+    <module>CodeQuotient2</module>
+    <module>Games</module>
+    <module>Interface</module>
     <module>KickStart2019</module>
     <module>LeetCodeSolutions</module>
+    <module>LinkedList</module>
     <module>MatrixOperations</module>
+    <module>NoMatcher</module>
     <module>OTPGenerator</module>
-    <module>PalindromeChecking</module>
-    <module>Pangram</module>
     <module>PassGenerator</module>
     <module>PasswordValidationInJava</module>
-    <module>PermutationOfString</module>
-    <module>SimpleDESEncryptionAlgorithm</module>
-    <module>SnakeGameApplet</module>
-    <module>SortingAlgorithms</module>
-    <module>TowersOfHanoi</module>
-    <module>Tree</module>
-    <module>NoMatcher</module>
-    <module>Zomcav</module>
+    <module>RandomInterviewQuestions</module>
+    <module>RMI</module>
     <module>Stacks</module>
-      <module>BinarySearch</module>
+    <module>Steganography</module>
+    <module>TowersOfHanoi</module>
+    <module>Zomcav</module>
   </modules>
 
   <distributionManagement>
