@@ -24,11 +24,17 @@ Because the 4th row is incomplete, we return 3. */
 /*Solution*/
 
 class Solution {
-public:
-    int arrangeCoins(int n) {
-        long long k =sqrt(2*(long long)n);
-        long long sum=k*(k+1)/2;
-        if(sum > n) return k-1;
-        return k;
+  public int arrangeCoins(int n) {
+    int copy = n;
+    int count = 0;
+    for (int i = 1; i <= copy && n > 0; i++) {
+      n -= i;
+      if (n < 0) {
+        break;
+      }
+      count++;
     }
-};
+    return count;
+  }
+}
+
