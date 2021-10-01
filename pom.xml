@@ -142,14 +142,12 @@
         <version>3.2.0</version>
         <configuration>
           <!-- Default configuration for all reports -->
-          ...
         </configuration>
         <reportSets>
           <reportSet>
             <id>default</id>
             <configuration>
               <!-- Specific configuration for the given reports -->
-              ...
             </configuration>
             <reports>
               <report>javadoc</report>
@@ -160,7 +158,6 @@
             <id>aggregate</id>
             <configuration>
               <!-- Specific configuration for the given reports -->
-              ...
             </configuration>
             <reports>
               <report>aggregate</report>

@@ -1,5 +1,3 @@
-package com.admfactory.basic;
-
 import java.security.SecureRandom;
 
 public class PasswordGenerator {
