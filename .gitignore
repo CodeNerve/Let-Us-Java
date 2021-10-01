@@ -5,3 +5,5 @@ target
 .settings
 .project
 .classpath
+.vscode/
+.idea/
