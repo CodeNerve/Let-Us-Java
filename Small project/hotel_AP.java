@@ -140,7 +140,8 @@ class admin{
 			System.out.println("2.Remove");
 			System.out.println("3.Editfile");
 			System.out.println("4.Resetword");
-			System.out.println("5.Exit		System.out.print("Enter choise : ");
+			System.out.println("5.Exit");
+			System.out.print("Enter choice : ");
 			ch=sc.nextInt();
 			switch(ch)
 			{
