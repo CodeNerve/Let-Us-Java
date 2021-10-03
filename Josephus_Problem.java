@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MenInCircle {
+public class Josephus_Problem{
 
     static boolean kill(List<Integer> list, boolean start){
         int last = list.get(list.size()-1);
