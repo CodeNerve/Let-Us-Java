@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 import java.util.*;
-public class hotel_AP{
+public class hotel_MS{
 		public static void main(String [] args)
 		{
 			customers [] customer = new customers[10];
