@@ -2,7 +2,7 @@
 // Problem Link: https://leetcode.com/problems/lru-cache/
 
 
-***** problem statement *****
+// ***** problem statement *****
 
 /*
 Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
@@ -14,7 +14,7 @@ If the number of keys exceeds the capacity from this operation, evict the least 
 */
 
 
-***** Solution *****
+ // ***** Solution *****
 
 
 
