@@ -1,4 +1,4 @@
-public class Factorial {
+public class FactorialDP {
     public int fact (int n){
             int [] memo = new int [n+1];
             memo [0] =1;
