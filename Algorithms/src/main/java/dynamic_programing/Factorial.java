@@ -1,5 +1,10 @@
-Public class Factorial{
-    public int factorial(int n){
-        return n<= 1 ? 1: n * this.factorial (n-1);
-    }
+public class Factorial {
+    public int fact (int n){
+            int [] memo = new int [n+1];
+            memo [0] =1;
+            for(int i=1; i<=n; i++){
+                memo[i] = i* memo[i-1];
+            }
+            return memo[n];
+        }
 }
