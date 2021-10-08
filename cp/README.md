@@ -1,4 +1,14 @@
+## Aim
 
+Java Program to generate **Hailstone Stone** Numbers 
+
+--------------------------------------------------------------------------------------------------
+
+**A Hailstone series is defined as follows:** 
+* * Start with any integer value greater than 0, say x. 
+  * If x is even, then the next value in the series is x/2
+  * If x is odd, then the next value in the series is 3x + 1. 
+  * Apply same rules to create the next value in the series.
 
 
 ## Output
