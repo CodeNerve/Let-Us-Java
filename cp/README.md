@@ -27,5 +27,8 @@ Java Program to generate **Hailstone Stone** Numbers
 * 5
 * 16
 
-
 **Number of steps : 17**
+
+-------------------------------------------------------------
+
+It is one of the competetive programming problems in Java.
