@@ -1,4 +1,7 @@
-class Solution {
+import java.io.*;
+import java.util.*;
+
+class bestTimeToBuySellStocksI {
     public int maxProfit(int[] prices) {
         int dpi0 = 0;
         int dpi1 = Integer.MIN_VALUE;
@@ -10,4 +13,9 @@ class Solution {
         
         return dpi0;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
+

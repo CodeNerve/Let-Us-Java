@@ -1,4 +1,7 @@
-class Solution {
+import java.io.*;
+import java.util.*;
+
+class bestTimeToBuySellStocksIII {
     public int maxProfit(int[] prices) {
         int dpi10 = 0;
         int dpi20 = 0;
@@ -12,10 +15,10 @@ class Solution {
             dpi11 = Math.max(dpi11, - val);
         }
         
-        Recurrence relation is given as
-        dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + price[i]);
-        dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - price[i]);
-        
         return dpi20; 
+    }
+
+    public static void main(String[] args) {
+        
     }
 }

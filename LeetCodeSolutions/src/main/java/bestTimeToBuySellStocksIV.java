@@ -1,4 +1,7 @@
-class Solution {
+import java.io.*;
+import java.util.*;
+
+class bestTimeToBuySellStocksIV {
     public int maxProfit(int k, int[] prices) {
         int[] dpik0 = new int[k + 1];
         int[] dpik1 = new int[k + 1];
