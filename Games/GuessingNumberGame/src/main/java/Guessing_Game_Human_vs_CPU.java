@@ -1,12 +1,13 @@
 import java.util.*;
-import java.util.*;
+
 public class Guessing_Game_Human_vs_CPU
 {
     public static int computerGuess(int lower,int upper,int randnum,int count)
     {
         int guess=(lower+upper)/2;
-        if(guess==randnum)
-        return count;
+        if(guess==randnum){
+            return count;
+        }
         
         if(guess<randnum){
             count++;
@@ -71,7 +72,8 @@ public class Guessing_Game_Human_vs_CPU
        //check if want to continue the game or exit
        System.out.println("\nDo You want to TRY AGAIN:(Y-YES/N-NO)");
        ch=sc.next().charAt(0);
-      } 
+      }
+      sc.close();
       System.out.println("\nThank you Playing!!");
     }
 }
