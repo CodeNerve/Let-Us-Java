@@ -1,4 +1,3 @@
-import java.util.Scanner;
 package com.company;
 
 public class kokoEatingBananas 
