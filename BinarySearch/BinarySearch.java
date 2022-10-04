@@ -1,43 +1,37 @@
-package com.company;
+import java.io.*;
 
-import java.util.Scanner;
-
-public class BinSearchDesc
+class BinarySearch
 {
-    public static void main(String[] args)
-    {
-        int[] arr = {6, 5, 4, 3, 2, 1};
-        int target = 2;
+public static void main(String args[]) throws IOException
+{
 
-        int res = binsearch(arr, target);
-      
-        System.out.println(res);
-    }
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-    private static int binsearch(int[] arr, int target)
-    {
-        int start = 0;
-        int end = arr.length-1;
+int a[]={7, 10, 12, 34, 45,51, 60, 78, 81, 92};
 
-        while(start <= end){
-            int middle = start + (end - start) / 2;
+int key, low=0, high=a.length-1, mid=0;
 
-            if(target < arr[middle])
-            {
-                end = middle - 1;
-            }
-            else if(target > arr[middle])
-            {
-                start = middle + 1;
-            }
-            else
-            {
-                return middle;
-            }
+System.out.print("Enter the integer to search:");        
+key=Integer.parseInt(br.readLine());
 
-        }
-        return -1;
-    }
+while(low<=high){
 
+mid=(low+high)/2;
 
+if (key==a[mid])
+break;
+
+else if(key<a[mid])
+high=mid-1;
+
+else
+low=mid+1;
+}
+
+if(low<=high)
+System.out.println(key+" found at index "+mid);
+
+else
+System.out.println(key+" not found");
+}
 }
