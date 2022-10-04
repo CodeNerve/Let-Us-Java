@@ -1,3 +1,9 @@
+
+//https://codeforces.com/problemset/problem/1666/D
+
+
+
+
 #include <bits/stdc++.h>
 #include <math.h>
 typedef long long ll;
