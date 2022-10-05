@@ -2,7 +2,7 @@ import java.util.Collections;
 import java.util.Objects;
 import java.util.PriorityQueue;
 
-class KthLargest {
+class KthLargestInArray {
     public static void main(String[] args) {
         int[] inputArray = {2, 1, 5, 9, 0, 35};
         int k = 2;
