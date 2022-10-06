@@ -1,43 +1,26 @@
-package com.company;
+package interview;
+//works only in sorted array
+public class BinarySearch {
+    public static void main(String[] args) {
+        int arr[] = {1,4,5,7,9};
+        int target = 9;
 
-import java.util.Scanner;
+        System.out.println(Bsearch(arr,target));
 
-public class BinSearchDesc
-{
-    public static void main(String[] args)
-    {
-        int[] arr = {6, 5, 4, 3, 2, 1};
-        int target = 2;
-
-        int res = binsearch(arr, target);
-      
-        System.out.println(res);
     }
 
-    private static int binsearch(int[] arr, int target)
+    private static int Bsearch(int[] arr, int tar)
     {
         int start = 0;
-        int end = arr.length-1;
+        int end = arr.length - 1;
 
-        while(start <= end){
-            int middle = start + (end - start) / 2;
-
-            if(target < arr[middle])
-            {
-                end = middle - 1;
-            }
-            else if(target > arr[middle])
-            {
-                start = middle + 1;
-            }
-            else
-            {
-                return middle;
-            }
-
+        while (start<=end)
+        {
+            int mid = start + (end - start)/2; // thsi is used to avoid overflow conditions
+            if (arr[mid] == tar)return mid;
+            else if (arr[mid] > tar)end = mid - 1;
+            else start = mid + 1;
         }
         return -1;
     }
-
-
 }
