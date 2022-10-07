@@ -1,0 +1,8 @@
+#Problem Statement
+
+For every index of string S1, we have different options to match that index with string S2. Therefore, we can think in terms of string matching path as we have done already in previous questions.
+
+Either the characters match already.
+Or, if there is a ‘?’, we can explicitly match a single character.
+For a ‘*’, we can explicitly match a single character.
+

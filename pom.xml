@@ -41,6 +41,7 @@
     <module>TowersOfHanoi</module>
     <module>Zomcav</module>
     <module>Timer</module>
+      <module>calculate rectangle</module>
   </modules>
 
   <distributionManagement>
