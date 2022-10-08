@@ -1,4 +1,4 @@
-package com.mycompany.noor;
+
 import java.util.Scanner;
 public class array_binary_char 
 {
