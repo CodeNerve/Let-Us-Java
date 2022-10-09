@@ -1,7 +1,7 @@
 //problem 282A- Bit++
 //--problem statement-> https://codeforces.com/problemset/problem/282/A
 //codeforces profile --> https://codeforces.com/profile/Bond_James
-
+// Madhavv Tthukral- https://github.com/Madhavv024
 import java.util.*; 
  
 public class bit {
