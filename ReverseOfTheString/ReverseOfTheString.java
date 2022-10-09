@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class ReverseOfTheString
 {
-	public static void main(String[] args) {
+	public static void main(String[] args)throws IOException {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string to be reversed");
 		String s=sc.next();
