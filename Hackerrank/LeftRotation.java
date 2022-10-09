@@ -5,7 +5,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 class LeftRotation{
-	public static void main (String[] args){
+	public static void main (String[] args)throws IOException{
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
 		int d = scn.nextInt();
