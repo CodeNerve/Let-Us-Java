@@ -8,49 +8,23 @@ class Rotate90 {
 		int start = 0;
 		int end = N - 1;
 
-		while (start < end) {
-			int temp = mat[i][start];
-			mat[i][start] = mat[i][end];
-			mat[i][end] = temp;
-			start++;
-			end--;
-		}
-	}
+	unction matrixRotation(matrix: number[][], r: number): void {
+  let left = 0, right = matrix[0].length - 1, z = 0;
+  while (left < right) {
+    let head: number;
+    let loop = r % (((matrix.length - z * 2) * 2 + (matrix[0].length - left * 2) * 2) - 4)
+    for (let i = 0; i < loop; i++) {
+      for (let k = left; k < matrix.length - z; k++) {
+        let tmpHead: number = k === matrix.length - z - 1 ? null : matrix[k].splice(left, 1)[0]
+        if (head) matrix[k].splice(left, 0, head);
+        if (k !== matrix.length - z - 1) matrix[k].splice(right, 0, matrix[k + 1].splice(right, 1)[0])
+        head = tmpHead;
+      }
+    }
+    left++;right--;z++;
+  }
 
-	static void rotateMatrix(int N, int mat[][])
-	{ 
-		for (int i = 0; i < N; i++)
-			Reverse(i, mat, N);
-		for (int i = 0; i < N; i++) {
-			for (int j = i; j < N; j++) {
-				int temp = mat[i][j];
-				mat[i][j] = mat[j][i];
-				mat[j][i] = temp;
-			}
-		}
-	}
-
-	static void displayMatrix(int N, int mat[][])
-	{
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++)
-				System.out.print(" " + mat[i][j]);
-
-			System.out.print("\n");
-		}
-		System.out.print("\n");
-	}
-
-	public static void main(String[] args)
-	{
-		int N = 4;
-
-		int mat[][] = { { 1, 2, 3, 4 },
-						{ 5, 6, 7, 8 },
-						{ 9, 10, 11, 12 },
-						{ 13, 14, 15, 16 } };
-		rotateMatrix(N, mat);
-		displayMatrix(N, mat);
-	}
+  for (let numbers of matrix) {
+    console.log(numbers.join(' '))
+  }
 }
-
