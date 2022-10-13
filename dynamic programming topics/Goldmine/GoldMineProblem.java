@@ -1,5 +1,5 @@
 // Java program to solve Gold Mine problem
-class ABC {
+class GoldMineProblem {
 static int collectGold(int[][] gold, int x, int y,
 						int n, int m)
 {
