@@ -1,8 +1,14 @@
 package Arrays;
-
+import java.util.Scanner;
 public class KadaneAlgo {
     public static void main(String[] args) {
-        System.out.println(kadaneAlgo(new int[]{1,2,3,4,-10, 11, -1}));
+    Scanner sc = new Scanner(System.in); 
+        int n =sc.nextInt();
+        int a []=new int[n];
+        for(in i =0;i<n;i++){
+        a[i]=sc.nextInt();
+        }
+        System.out.println(kadaneAlgo(a));
     }
 
     public static int kadaneAlgo(int[] arr){
