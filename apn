@@ -1,0 +1,38 @@
+79.	 public class AlternatePrimeNumber  
+80.	{   
+81.	public static void main(String[] args)    
+82.	{   
+83.	int num = 20;    
+84.	System.out.print("Alternate prime numbers up to " + num+" are: ");    
+85.	printAlternatePrimeNumber(num);   
+86.	}  
+87.	static int checkPrime(int num)   
+88.	{   
+89.	int i, flag = 0;   
+90.	for(i = 2; i<= num / 2; i++)   
+91.	{   
+92.	if(num % i == 0)   
+93.	{   
+94.	flag = 1;   
+95.	break;   
+96.	}   
+97.	}   
+98.	if(flag == 0)   
+99.	return 1;   
+100.	else  
+101.	return 0;   
+102.	}   
+103.	static void printAlternatePrimeNumber(int n)   
+104.	{   
+105.	int temp = 2;   
+106.	for(int num = 2; num <= n-1; num++)   
+107.	{   
+108.	if (checkPrime(num) == 1)   
+109.	{    
+110.	if (temp % 2 == 0)   
+111.	System.out.print(num + " ");   
+112.	temp ++;   
+113.	}   
+114.	}   
+115.	}   
+116.	}
