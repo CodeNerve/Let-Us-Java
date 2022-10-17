@@ -1,0 +1,51 @@
+public class flloyd_Warshall{
+    static class bfs
+    {
+        final static int inf=99999999;
+        int v=4;
+
+        void floydwarshal(int g[][])
+        {
+            int d[][]=new int[v][v];
+            int i,j,k;
+            for (i=0;i<v;i++)
+            {
+                for(j=0;j<v;j++)
+                {
+                    d[i][j]=g[i][j];  
+                }
+            }
+            for(k=0;k<v;k++)
+            {
+                for (i=0;i<v;i++)
+                {
+                    for (j = 0; j < v; j++) {
+                        if ((d[i][k] + d[k][j] )< d[i][j])
+                            d[i][j] = d[i][k] + d[k][j];
+                    }
+                }
+            }
+            print(d);
+        }
+        void print(int d[][])
+        {
+            for (int i=0;i<v;i++) {
+                for (int j = 0; j < v; j++) {
+                    if (d[i][j] == inf)
+                        System.out.print("inf ");
+                    else
+                        System.out.print(d[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
+        public static void main(String[] args) {
+            int g[][]={{0,   5,  inf, 10},
+                       {inf, 0,   3, inf},
+                       {inf, inf, 0,   1},
+                       {inf, inf, inf, 0}};
+            bfs a=new bfs();
+            a.floydwarshal(g);
+        }
+    }
+}
