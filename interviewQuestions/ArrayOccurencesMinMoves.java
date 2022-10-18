@@ -2,6 +2,10 @@ import java.util.*;
 
 public class ArrayOccurencesMinMoves {
 
+//    Write a function that, given an array A, returns the minimum number of moves after which every
+//    value X in the array occurs exactly X times. Note that it is permissible to remove some values
+//    entirely, if appropriate.
+
     public static int minMoves(int[] data) {
         Map<Integer, Integer> dataMap = new HashMap<>();
         for (int i = 0; i < data.length; i++) {
