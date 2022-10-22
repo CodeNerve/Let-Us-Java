@@ -5,15 +5,15 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution{
-	public static void main(String[] args){
-		
-		Scanner in = new Scanner(System.in);
-		int testCases = Integer.parseInt(in.nextLine());
-		while(testCases>0){
-			String line = in.nextLine();
-			
-          	//Write your code here
-              boolean matchFound = false;
+    public static void main(String[] args){
+
+        Scanner in = new Scanner(System.in);
+        int testCases = Integer.parseInt(in.nextLine());
+        while(testCases>0){
+            String line = in.nextLine();
+
+            //Write your code here
+            boolean matchFound = false;
             Pattern r = Pattern.compile("<(.+)>([^<]+)</\\1>");
             Matcher m = r.matcher(line);
 
@@ -24,9 +24,9 @@ public class Solution{
             if (!matchFound) {
                 System.out.println("None");
             }
-			testCases--;
-		}
-	}
+            testCases--;
+        }
+    }
 }
 
 
