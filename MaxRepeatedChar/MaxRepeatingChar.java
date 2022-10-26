@@ -1,3 +1,5 @@
+package main.java.strings;
+
 import java.util.Scanner;
 
 public class MaxRepeatingChar {
