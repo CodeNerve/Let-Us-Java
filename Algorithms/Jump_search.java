@@ -1,58 +1,55 @@
-// Java implementation of iterative
-// Binary Search
-
-class BinarySearch {
-
-	// Returns index of x if it is present
-	// in arr[], else return -1
-	int binarySearch(int arr[], int x)
+// Java program to implement Jump Search.
+public class JumpSearch
+{
+	public static int jumpSearch(int[] arr, int x)
 	{
+		int n = arr.length;
 
-		int l = 0, r = arr.length - 1;
+		// Finding block size to be jumped
+		int step = (int)Math.floor(Math.sqrt(n));
 
-		// Iterate until l <= r
-		while (l <= r) {
-			int m = l + (r - l) / 2;
-
-			// Check if x is at mid
-			if (arr[m] == x)
-				return m;
-
-			// If x greater than arr[m]
-			// then ignore left half
-			if (arr[m] < x)
-				l = m + 1;
-
-			// If x is smaller than arr[m]
-			// ignore right half
-			else
-				r = m - 1;
+		// Finding the block where element is
+		// present (if it is present)
+		int prev = 0;
+		while (arr[Math.min(step, n)-1] < x)
+		{
+			prev = step;
+			step += (int)Math.floor(Math.sqrt(n));
+			if (prev >= n)
+				return -1;
 		}
 
-		// If we reach here, then element
-		// was not present
+		// Doing a linear search for x in block
+		// beginning with prev.
+		while (arr[prev] < x)
+		{
+			prev++;
+
+			// If we reached next block or end of
+			// array, element is not present.
+			if (prev == Math.min(step, n))
+				return -1;
+		}
+
+		// If element is found
+		if (arr[prev] == x)
+			return prev;
+
 		return -1;
 	}
 
-	// Driver Code
-	public static void main(String args[])
+	// Driver program to test function
+	public static void main(String [ ] args)
 	{
+		int arr[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21,
+					34, 55, 89, 144, 233, 377, 610};
+		int x = 55;
 
-		// Create object of this class
-		BinarySearch ob = new BinarySearch();
+		// Find the index of 'x' using Jump Search
+		int index = jumpSearch(arr, x);
 
-		// Given array arr[]
-		int arr[] = { 2, 3, 4, 10, 40 };
-		int n = arr.length;
-		int x = 10;
-
-		// Function Call
-		int result = ob.binarySearch(arr, x);
-
-		if (result == -1)
-			System.out.println("Element not present");
-		else
-			System.out.println("Element found at index "
-							+ result);
+		// Print the index where 'x' is located
+		System.out.println("\nNumber " + x +
+							" is at index " + index);
 	}
 }
